@@ -298,13 +298,13 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#inicio {
   width: 100%;
   position: relative;
   overflow: hidden;
   padding: 140px 0 100px 0;
 }
-#hero::before {
+#inicio::before {
   content: "";
   position: absolute;
   right: -100%;
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #e8ecf5;
   transform: skewY(135deg);
 }
-#hero h1 {
+#inicio h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 500;
@@ -323,12 +323,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #5777ba;
   font-family: "Poppins", sans-serif;
 }
-#hero h2 {
+#inicio h2 {
   color: #515f7d;
   margin-bottom: 50px;
   font-size: 20px;
 }
-#hero .download-btn {
+#inicio .download-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -340,23 +340,23 @@ h1, h2, h3, h4, h5, h6 {
   background: #47536e;
   position: relative;
 }
-#hero .download-btn:hover {
+#inicio .download-btn:hover {
   background: #5777ba;
 }
-#hero .download-btn i {
+#inicio .download-btn i {
   font-size: 20px;
   position: absolute;
   left: 18px;
   top: 8.5px;
 }
-#hero .download-btn + .download-btn {
+#inicio .download-btn + .download-btn {
   margin-left: 20px;
 }
 @media (max-width: 991px) {
-  #hero {
+  #inicio {
     text-align: center;
   }
-  #hero .download-btn + .download-btn {
+  #inicio .download-btn + .download-btn {
     margin: 0 10px;
   }
   #hero .hero-img {
@@ -367,11 +367,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-width: 768px) {
-  #hero h1 {
+  #inicio h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  #inicio h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;

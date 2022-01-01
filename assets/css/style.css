@@ -313,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 200%;
   z-index: -1;
   background-color: rgb(87, 119, 186);
-  transform: skewY(135deg);
+  transform: skewY(155deg);
 }
 #inicio h1 {
   margin: 0 0 10px 0;

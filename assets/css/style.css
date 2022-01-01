@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
-  color: #47536e;
+  color: #2d59be;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #5777ba;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  background: #5777ba;
+  background: rgb(12, 46, 121);
   color: #fff;
   padding: 12px 25px;
   margin-left: 30px;
@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(161, 127, 129, 0.25);
 }
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 250%;
   height: 200%;
   z-index: -1;
-  background-color: #e8ecf5;
+  background-color: rgb(87, 119, 186);
   transform: skewY(135deg);
 }
 #inicio h1 {
@@ -570,19 +570,19 @@ section {
 }
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  padding: 30px 30px 30px 60px;
+  padding: 30px 30px 30px 100px;
   margin: 30px 10px 30px 50px;
   min-height: 200px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
   position: relative;
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+  width: 110px;
   border-radius: 10px;
-  border: 6px solid #fff;
+  border: 6px solid rgb(87, 119, 186);
   position: absolute;
-  left: -45px;
+  left: -35px;
 }
 .testimonials .testimonial-item h3 {
   font-size: 18px;
